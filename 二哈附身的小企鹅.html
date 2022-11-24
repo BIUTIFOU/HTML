@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <style>
+  * {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #9df1fc;
+  box-shadow: inset rgba(6, 177, 199, 0.8) 0 100px 200px -50px;
+  overflow: hidden;
+}
+
+main {
+  position: absolute;
+  bottom: -20vh;
+  left: -50vw;
+  width: 200vw;
+  height: 60vh;
+  background-color: #ffffff;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  -webkit-animation: horizonRotate 15s ease-in-out alternate infinite;
+          animation: horizonRotate 15s ease-in-out alternate infinite;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #fafafa 20%, #fafafa 40%, whitesmoke 40%, whitesmoke 60%, #f0f0f0 60%, #f0f0f0 80%, #ebebeb 80%, #ebebeb 100%);
+}
+
+.mountain {
+  position: absolute;
+  bottom: calc(100% + 8px*6);
+  width: 8px;
+  height: 8px;
+  box-shadow: 48px 8px #fafafa, 40px 16px #ffffff, 48px 16px #ffffff, 56px 16px #fafafa, 32px 24px #ffffff, 40px 24px #ffffff, 48px 24px #ffffff, 56px 24px #ffffff, 64px 24px #fafafa, 24px 32px #ffffff, 32px 32px #ffffff, 40px 32px #ffffff, 48px 32px #ffffff, 56px 32px #ffffff, 64px 32px #ffffff, 72px 32px #fafafa, 16px 40px #ffffff, 24px 40px #ffffff, 32px 40px #ffffff, 40px 40px #ffffff, 48px 40px #ffffff, 56px 40px #ffffff, 64px 40px #ffffff, 72px 40px #ffffff, 80px 40px #fafafa, 8px 48px #ffffff, 16px 48px #ffffff, 24px 48px #ffffff, 32px 48px #ffffff, 40px 48px #ffffff, 48px 48px #ffffff, 56px 48px #ffffff, 64px 48px #ffffff, 72px 48px #ffffff, 80px 48px #ffffff, 88px 48px #fafafa;
+}
+.mountain:nth-child(1) {
+  -webkit-transform: translateX(228vw);
+          transform: translateX(228vw);
+  -webkit-animation: horizonMovement 3s linear infinite;
+          animation: horizonMovement 3s linear infinite;
+}
+.mountain:nth-child(2) {
+  -webkit-transform: translateX(239vw);
+          transform: translateX(239vw);
+  -webkit-animation: horizonMovement 4s linear infinite;
+          animation: horizonMovement 4s linear infinite;
+}
+.mountain:nth-child(3) {
+  -webkit-transform: translateX(242vw);
+          transform: translateX(242vw);
+  -webkit-animation: horizonMovement 6s linear infinite;
+          animation: horizonMovement 6s linear infinite;
+}
+.mountain:nth-child(4) {
+  -webkit-transform: translateX(209vw);
+          transform: translateX(209vw);
+  -webkit-animation: horizonMovement 14s linear infinite;
+          animation: horizonMovement 14s linear infinite;
+}
+.mountain:nth-child(5) {
+  -webkit-transform: translateX(243vw);
+          transform: translateX(243vw);
+  -webkit-animation: horizonMovement 10s linear infinite;
+          animation: horizonMovement 10s linear infinite;
+}
+.mountain:nth-child(6) {
+  -webkit-transform: translateX(200vw);
+          transform: translateX(200vw);
+  -webkit-animation: horizonMovement 13s linear infinite;
+          animation: horizonMovement 13s linear infinite;
+}
+.mountain:nth-child(7) {
+  -webkit-transform: translateX(221vw);
+          transform: translateX(221vw);
+  -webkit-animation: horizonMovement 5s linear infinite;
+          animation: horizonMovement 5s linear infinite;
+}
+.mountain:nth-child(8) {
+  -webkit-transform: translateX(216vw);
+          transform: translateX(216vw);
+  -webkit-animation: horizonMovement 11s linear infinite;
+          animation: horizonMovement 11s linear infinite;
+}
+.mountain:nth-child(9) {
+  -webkit-transform: translateX(197vw);
+          transform: translateX(197vw);
+  -webkit-animation: horizonMovement 14s linear infinite;
+          animation: horizonMovement 14s linear infinite;
+}
+.mountain:nth-child(10) {
+  -webkit-transform: translateX(242vw);
+          transform: translateX(242vw);
+  -webkit-animation: horizonMovement 9s linear infinite;
+          animation: horizonMovement 9s linear infinite;
+}
+.mountain:nth-child(11) {
+  -webkit-transform: translateX(263vw);
+          transform: translateX(263vw);
+  -webkit-animation: horizonMovement 6s linear infinite;
+          animation: horizonMovement 6s linear infinite;
+}
+.mountain:nth-child(12) {
+  -webkit-transform: translateX(191vw);
+          transform: translateX(191vw);
+  -webkit-animation: horizonMovement 3s linear infinite;
+          animation: horizonMovement 3s linear infinite;
+}
+
+.penguin {
+  position: absolute;
+  right: 160px;
+  bottom: calc(100% + 8px*2);
+  left: 0;
+  margin: auto;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: sliding 1s linear infinite;
+          animation: sliding 1s linear infinite;
+  box-shadow: 24px 8px #252827, 32px 8px #252827, 40px 8px #252827, 48px 8px #252827, 56px 8px #252827, 64px 8px #252827, 72px 8px #252827, 80px 8px #252827, 88px 8px #252827, 120px 8px #252827, 128px 8px #252827, 136px 8px #252827, 144px 8px #252827, 16px 16px #252827, 24px 16px #252827, 32px 16px #252827, 40px 16px #252827, 48px 16px #252827, 56px 16px #252827, 64px 16px #252827, 72px 16px #252827, 80px 16px #252827, 88px 16px #252827, 96px 16px #252827, 112px 16px #252827, 120px 16px #252827, 128px 16px #252827, 136px 16px #252827, 144px 16px #252827, 152px 16px #252827, 8px 24px #252827, 16px 24px #252827, 24px 24px #252827, 32px 24px #252827, 40px 24px #252827, 48px 24px #252827, 56px 24px #252827, 64px 24px #3e4241, 72px 24px #3e4241, 80px 24px #3e4241, 88px 24px #252827, 96px 24px #252827, 104px 24px #252827, 112px 24px #252827, 120px 24px #252827, 128px 24px #252827, 136px 24px #252827, 144px 24px #ffffff, 152px 24px #252827, 160px 24px #252827, 0px 32px #252827, 8px 32px #252827, 16px 32px #252827, 24px 32px #252827, 32px 32px #252827, 40px 32px #3e4241, 48px 32px #3e4241, 56px 32px #3e4241, 64px 32px #3e4241, 72px 32px #3e4241, 80px 32px #252827, 88px 32px #252827, 96px 32px #252827, 104px 32px #252827, 112px 32px #252827, 120px 32px #252827, 128px 32px #252827, 136px 32px #252827, 144px 32px #252827, 152px 32px #252827, 160px 32px #ffcd35, 168px 32px #ffcd35, -16px 40px #252827, -8px 40px #252827, 0px 40px #252827, 8px 40px #dcdcdc, 16px 40px #dcdcdc, 24px 40px #dcdcdc, 32px 40px #dcdcdc, 40px 40px #dcdcdc, 48px 40px #3e4241, 56px 40px #3e4241, 64px 40px #3e4241, 72px 40px #dcdcdc, 80px 40px #dcdcdc, 88px 40px #dcdcdc, 96px 40px #dcdcdc, 104px 40px #252827, 112px 40px #252827, 120px 40px #252827, 128px 40px #252827, 136px 40px #252827, 144px 40px #252827, 152px 40px #252827, 160px 40px #ffcd35, -8px 48px #ffc002, 0px 48px #ffc002, 8px 48px #ffc002, 16px 48px #f0f0f0, 24px 48px #f0f0f0, 32px 48px #f0f0f0, 40px 48px #f0f0f0, 48px 48px #f0f0f0, 56px 48px #f0f0f0, 64px 48px #f0f0f0, 72px 48px #f0f0f0, 80px 48px #f0f0f0, 88px 48px #f0f0f0, 96px 48px #f0f0f0, 104px 48px #f0f0f0, 112px 48px #252827, 120px 48px #252827;
+}
+
+.snow {
+  position: absolute;
+  top: 0;
+  right: 160px;
+  left: 0;
+  margin: auto;
+  width: 8px;
+  height: 8px;
+  -webkit-animation: snowing .3s ease-in-out infinite;
+          animation: snowing .3s ease-in-out infinite;
+  box-shadow: 8px 48px #ffffff, 32px 48px #ffffff, 40px 48px #ffffff, 48px 48px #ffffff, 56px 48px #ffffff, 64px 48px #ffffff, 72px 48px #ffffff;
+}
+
+@-webkit-keyframes sliding {
+  25% {
+    -webkit-transform: translate(-50%, -20%);
+            transform: translate(-50%, -20%);
+  }
+  50% {
+    -webkit-transform: translate(50%, 20%);
+            transform: translate(50%, 20%);
+  }
+  75% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+  85% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes sliding {
+  25% {
+    -webkit-transform: translate(-50%, -20%);
+            transform: translate(-50%, -20%);
+  }
+  50% {
+    -webkit-transform: translate(50%, 20%);
+            transform: translate(50%, 20%);
+  }
+  75% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+  85% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+@-webkit-keyframes horizonMovement {
+  to {
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+}
+@keyframes horizonMovement {
+  to {
+    -webkit-transform: translateX(-100vw);
+            transform: translateX(-100vw);
+  }
+}
+@-webkit-keyframes horizonRotate {
+  20% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  40% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  60% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  80% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+}
+@keyframes horizonRotate {
+  20% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  40% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  60% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  80% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+}
+@-webkit-keyframes snowing {
+  0%, 25% {
+    box-shadow: 16px 48px #ffffff, 24px 40px #ffffff, 32px 48px #ffffff, 48px 32px #ffffff, 56px 40px #ffffff, 56px 48px #ffffff, 64px 40px #ffffff;
+  }
+  26%, 50% {
+    box-shadow: 8px 48px #ffffff, 32px 32px #ffffff, 40px 24px #ffffff, 48px 40px #ffffff, 56px 48px #ffffff, 64px 32px #ffffff, 72px 48px #ffffff;
+  }
+  51%, 75% {
+    box-shadow: 8px 16px rgba(255, 255, 255, 0.6), 8px 24px #ffffff, 16px 32px #ffffff, 24px 24px #ffffff, 32px 16px rgba(255, 255, 255, 0.6), 40px 32px #ffffff, 56px 40px #ffffff;
+  }
+  76%, 100% {
+    box-shadow: 8px -8px rgba(255, 255, 255, 0.2), -8px 0px rgba(255, 255, 255, 0.2), 16px 8px rgba(255, 255, 255, 0.2), 8px 24px rgba(255, 255, 255, 0.2), 32px 8px rgba(255, 255, 255, 0.2), 40px 8px rgba(255, 255, 255, 0.2), 48px 16px rgba(255, 255, 255, 0.2);
+  }
+}
+@keyframes snowing {
+  0%, 25% {
+    box-shadow: 16px 48px #ffffff, 24px 40px #ffffff, 32px 48px #ffffff, 48px 32px #ffffff, 56px 40px #ffffff, 56px 48px #ffffff, 64px 40px #ffffff;
+  }
+  26%, 50% {
+    box-shadow: 8px 48px #ffffff, 32px 32px #ffffff, 40px 24px #ffffff, 48px 40px #ffffff, 56px 48px #ffffff, 64px 32px #ffffff, 72px 48px #ffffff;
+  }
+  51%, 75% {
+    box-shadow: 8px 16px rgba(255, 255, 255, 0.6), 8px 24px #ffffff, 16px 32px #ffffff, 24px 24px #ffffff, 32px 16px rgba(255, 255, 255, 0.6), 40px 32px #ffffff, 56px 40px #ffffff;
+  }
+  76%, 100% {
+    box-shadow: 8px -8px rgba(255, 255, 255, 0.2), -8px 0px rgba(255, 255, 255, 0.2), 16px 8px rgba(255, 255, 255, 0.2), 8px 24px rgba(255, 255, 255, 0.2), 32px 8px rgba(255, 255, 255, 0.2), 40px 8px rgba(255, 255, 255, 0.2), 48px 16px rgba(255, 255, 255, 0.2);
+  }
+}
+  </style>
+ </HEAD>
+
+ <BODY>
+  
+<div class="wrapper">
+  <main>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="mountain"></div>
+    <div class="penguin">
+      <div class="snow"></div>
+    </div>
+  </main>
+</div>
+ </BODY>
+</HTML>
